@@ -14,8 +14,10 @@
                 value: 'MA 02139'
             });
             $("#notes").dxTextArea({
-                value: "Founded in 1861, Massachusetts Institute of Technology (M.I.T.) is the best university in the world according to the QS World University Rankings 2016-2017, a title it has regularly claimed over the last few years. Rated 5+ QS stars, it’s achieved the maximum score across all categories, including research, employability, teaching, facilities, internationalization, innovation, specialist criteria and inclusiveness." +
-                "MIT is also the best university in the world for a number of subjects including, but not limited to, architecture, linguistics, computer science and information systems, engineering and technology, chemistry, mathematics, economics and",
+                value: "Founded in 1861, Massachusetts Institute of Technology (M.I.T.) is the best university in the world according"
+                + " to the QS World University Rankings 2016-2017, a title it has regularly claimed over the last few years. Rated 5+ QS stars, "
+                + " it’s achieved the maximum score across all categories, including research, employability, teaching, facilities, internationalization, innovation, specialist criteria and inclusiveness." 
+                + " MIT is also the best university in the world for a number of subjects including, but not limited to, architecture, linguistics, computer science and information systems, engineering and technology, chemistry, mathematics, economics and",
                 height: 200
             });
         }
