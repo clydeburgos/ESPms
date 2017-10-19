@@ -1,0 +1,32 @@
+﻿@using System.Web.Optimization;
+@{
+    ViewBag.Title = "ESPms";
+}
+
+<!-- COMPONENT VIEWS CONTAINERS-->
+<div class="container-fluid col-lg-12">
+    <div class="esp-menu-placeholder">
+        <div id="sidebar-menu-container" class="esp-container"></div>
+    </div>
+    <div class="esp-place-holder">
+        <div id="school-profile-container" class="esp-container"></div>
+    </div>
+</div>
+
+
+        @section Scripts {
+
+            <!-- COMPONENT SCRIPTS-->
+            @Html.Partial("Components/school-profile")
+            @Html.Partial("Components/sidebar-menu")
+            @Scripts.Render("~/Bundles/App")
+
+            <script type="text/javascript">
+                $(function () {
+                    _.defer(function () {
+                        ko.ext.renderComponent("#school-profile-container", "school-profile")
+                        ko.ext.renderComponent("#sidebar-menu-container", "sidebar-menu")
+                    });
+                });
+            </script>
+        }

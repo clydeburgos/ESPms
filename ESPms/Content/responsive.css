@@ -1,0 +1,166 @@
+﻿@media (max-width: 1240px) {
+
+    /* Header */
+    #header-container #navbar {
+        width: auto !important;
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    #header-container #dxsbSite-container {
+        width: 120px;
+    }
+
+    #header-container #dxsbArea-container {
+        width: 180px;
+    }
+
+    #header-container #dxsbEntryLeader-container {
+        width: 120px;
+    }
+
+    #header-container #viewing-permits {
+        line-height: 30px;
+        font-size: 16px;
+    }
+
+
+    /* Dashboard */
+    #dashboard-container #dashboard-non-active-container {
+        width: 88px !important;
+    }
+
+    #dashboard-container #dashboard-active-container {
+        width: 247px !important;
+    }
+
+        #dashboard-container #dashboard-active-container #dxbStatusPendingApproval {
+            width: 81px !important;
+        }
+
+        #dashboard-container #dashboard-active-container #dxbStatusActive {
+            width: 81px !important;
+        }
+
+        #dashboard-container #dashboard-active-container #dxbStatusSuspended {
+            width: 81px !important;
+        }
+
+            #dashboard-container #dashboard-active-container #dxbStatusActive .dx-button-content,
+            #dashboard-container #dashboard-active-container #dxbStatusSuspended .dx-button-content {
+                padding: 0 !important;
+                padding-left: 6px !important;
+                padding-right: 6px !important;
+                height: 48px;
+            }
+
+    #dashboard-container #dashboard-status-container {
+        width: 224.5px !important;
+    }
+
+        #dashboard-container #dashboard-status-container div.left-group-container .dx-button-content {
+            width: 80px;
+        }
+
+        #dashboard-container #dashboard-status-container .dx-button-has-text .dx-button-content {
+            font-size: 12px !important;
+            padding: 0 !important;
+        }
+
+
+        #dashboard-container #dashboard-status-container div.left-group-container {
+            width: 151px;
+        }
+
+        #dashboard-container #dashboard-status-container div.left-group-container .dx-button-content {
+            margin-left: 20px;
+        }
+
+        #dashboard-container #dashboard-status-container div.right-group-container {
+            width: 73.5px
+        }
+
+    #dashboard-container #dashboard-actions-container {
+        width: 414px;
+        float: right;
+    }
+
+    #dashboard-container #dashboard-actions-container .dx-button {
+        width: 74px !important;
+    }
+
+
+        #dashboard-container #dashboard-actions-container #dxbActionCreatePermit {
+            margin-left: 31px;
+        }
+
+
+    #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container {
+        min-width: 400px;
+        margin-right: 20px;
+        font-size: 13px !important;
+    }
+
+        #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-permit-actions-container {
+            width: 150px;
+        }
+
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-permit-actions-container #dxbActionEdit {
+                width: 73px !important;
+                font-size: 13px !important;
+            }
+
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-permit-actions-container #dxbActionPrint {
+                width: 73px !important;
+                font-size: 13px !important;
+                padding-left: 30px;
+            }
+
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-permit-actions-container #dxbActionViewComments {
+                padding-left: 30px;
+                font-size: 13px !important;
+            }
+
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-permit-actions-container #dxbActionViewChangeLog {
+                padding-left: 30px;
+                font-size: 13px !important;
+            }
+
+        #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-change-permit-status-container {
+            width: 125px;
+        }
+
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-change-permit-status-container #dxbActionRevalidate {
+                font-size: 13px !important;
+                padding-left: 15px;
+            }
+
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-change-permit-status-container #dxbActionSuspend,
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-change-permit-status-container #dxbActionCancel {
+                font-size: 13px !important;
+                padding-left: 5px;
+            }
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-change-permit-status-container #dxbActionCancel {
+                padding-left: 10px;
+            }
+
+        #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-documents-container {
+            width: 150px;
+        }
+
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-documents-container #dxbActionEntryProcedure,
+            #dashboard-container #dashboard-bottom-container #dashboard-bottom-left-container #dashboard-documents-container #dxbActionRiskAssessment {
+                font-size: 13px !important;
+                padding-left: 20px;
+            }
+            
+            
+            dashboard-permit-actions-detail-container .dx-field-label {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+
+    #userAdminShowAdminUsersOnly {
+        font-size: 12px;
+    }
+}

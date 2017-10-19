@@ -1,0 +1,81 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: Helvetica Neue,Segoe UI,Helvetica,Verdana,sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select
+{
+    max-width: 280px;
+}
+
+/*dx*/
+/*.dx-fieldset:first-child > h4:first-child {
+    margin-top: 0;
+}
+
+#notes-container > .dx-field > .dx-field-label {
+    width: 20%;
+}
+
+#notes-container > .dx-field > .dx-field-value {
+    width: 80%;
+}*/
+
+/*override*/
+
+.container-fluid, .body-content {
+    padding: 0px !important;
+}
+/*site specific*/
+.esp-header {
+    background-color: #1d1d1d;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 155px;
+    color: #fff;
+    padding: 10px 25px 10px 25px;
+}
+.esp-menu-placeholder {
+    display:block;
+    float:left;
+}
+.esp-place-holder {
+    float: left;
+    width: 70%;
+}
+
+.school-name {
+    font-size: 30px !important;
+}
+.school-address {
+    color: #8c8d8c;
+}
+
+.esp-form-container {
+    margin-top: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.esp-border {
+    border-bottom: 2px solid #81bd00;
+}
+.school-log-imge {
+    width: 150px;
+    height: 110px;
+}

@@ -1,0 +1,59 @@
+﻿<script type="text/template" id="t-school-profile">
+            <div class="esp-header">
+                <div id="esp-school-info">
+                    <div class="pull-left">
+                        <h4 class="school-name" data-bind="text:schoolName"></h4>
+                        <div class="rating-container">
+                            <div class="rating-stars" data-bind="style: { width: 20 * 5 + '%' }" style="width: 80%;"></div>
+                        </div>
+                        <div class="school-address">
+                            <p class="address" data-bind="text: fullAddress "></p>
+                        </div>
+                    </div>
+                    <div class="pull-right">
+                        <div class="school-logo pull-right">
+                            <img class="school-log-imge" src="/Content/images/school_logos/massachusetts-institute-of-technology-mit.jpg" />
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+                <div class="esp-border">&nbsp;</div>
+            </div>
+            <div class="dx-form-group">
+                <div class="esp-form-container">
+                    <div class="dx-fieldset">
+                        <div class="dx-fieldset-header">Basic Information</div>
+                        <div class="dx-field">
+                            <div class="dx-field-label">School Name</div>
+                            <div class="dx-field-value-static" data-bind="text:schoolName"></div>
+                        </div>
+                        <div class="dx-field">
+                            <div class="dx-field-label">Other Name</div>
+                            <div class="dx-field-value-static" data-bind="text:otherName">Shipping Manager</div>
+                        </div>
+                    </div>
+                    <div class="dx-fieldset">
+                        <div class="dx-fieldset-header">Address Information</div>
+                        <div class="dx-field">
+                            <div class="dx-field-label">Address</div>
+                            <div class="dx-field-value">
+                                <div id="address"></div>
+                            </div>
+                        </div>
+                        <div class="dx-field">
+                            <div class="dx-field-label">State / Zip</div>
+                            <div class="dx-field-value" id="state-zip"></div>
+                        </div>
+                    </div>
+                    <div class="dx-fieldset" id="notes-container">
+                        <div class="dx-fieldset-header">Field Set with Custom Value Width</div>
+                        <div class="dx-field">
+                            <div class="dx-field-label">Description</div>
+                            <div class="dx-field-value">
+                                <div id="notes"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</script>
