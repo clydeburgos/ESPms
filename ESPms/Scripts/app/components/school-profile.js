@@ -10,9 +10,11 @@
             $("#address").dxTextBox({
                 value: '02139 77 Massachusetts Avenue Cambridge'
             });
+
             $("#state-zip").dxTextBox({
                 value: 'MA 02139'
             });
+
             $("#notes").dxTextArea({
                 value: "Founded in 1861, Massachusetts Institute of Technology (M.I.T.) is the best university in the world according"
                 + " to the QS World University Rankings 2016-2017, a title it has regularly claimed over the last few years. Rated 5+ QS stars, "
