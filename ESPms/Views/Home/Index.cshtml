@@ -3,20 +3,33 @@
     ViewBag.Title = "ESPms";
 }
 
+<div class="navbar navbar-default navbar-fixed-top esp-main-header">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+            </button>
+            <a class="navbar-brand" href="#">ELECTRONIC SCHOOL PROFILING</a>
+        </div>
+    </div>
+</div>
 <!-- COMPONENT VIEWS CONTAINERS-->
 <div class="container-fluid col-lg-12">
     <div class="esp-menu-placeholder">
         <div id="sidebar-menu-container" class="esp-container"></div>
     </div>
     <div class="esp-place-holder">
+        <div id="school-list-container" class="esp-container"></div>
         <div id="school-profile-container" class="esp-container"></div>
     </div>
+    <div class="clearfix">&nbsp;</div>
 </div>
 
 
         @section Scripts {
 
             <!-- COMPONENT SCRIPTS-->
+            @Html.Partial("Components/school-list")
             @Html.Partial("Components/school-profile")
             @Html.Partial("Components/sidebar-menu")
             @Scripts.Render("~/Bundles/App")
@@ -24,7 +37,8 @@
             <script type="text/javascript">
                 $(function () {
                     _.defer(function () {
-                        ko.ext.renderComponent("#school-profile-container", "school-profile")
+                        ko.ext.renderComponent("#school-list-container", "school-list")
+                        //ko.ext.renderComponent("#school-profile-container", "school-profile")
                         ko.ext.renderComponent("#sidebar-menu-container", "sidebar-menu")
                     });
                 });

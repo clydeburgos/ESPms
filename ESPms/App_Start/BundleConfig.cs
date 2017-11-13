@@ -12,7 +12,7 @@ namespace ESPms
                     .Include("~/Content/bootstrap.min.css")
                     .Include("~/Content/dx.common.css")
                     .Include("~/Content/dx.light.custom.css")
-                    .Include("~/Content/dx.overrides.css")
+                    //.Include("~/Content/dx.overrides.css")
                     .Include("~/Content/Site.css")
                     .Include("~/Content/responsive.css")
                 );

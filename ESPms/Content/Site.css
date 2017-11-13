@@ -3,7 +3,9 @@
     padding-bottom: 20px;
     font-family: Helvetica Neue,Segoe UI,Helvetica,Verdana,sans-serif;
 }
-
+footer {
+    color: #fff;
+}
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 15px;
@@ -13,6 +15,13 @@
 /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
+.dx-theme-generic-typography {
+    background-color: #1d1d1d!important;
+}
+.dx-treeview .dx-treeview-toggle-item-visibility {
+    color:#fff!important;
+}
+
 .dl-horizontal dt {
     white-space: normal;
 }
@@ -43,22 +52,50 @@ select
     padding: 0px !important;
 }
 /*site specific*/
-.esp-header {
-    background-color: #1d1d1d;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    height: 155px;
-    color: #fff;
-    padding: 10px 25px 10px 25px;
+.esp-main-header {
+    background-color: rgb(0, 144, 189) !important;
 }
-.esp-menu-placeholder {
-    display:block;
-    float:left;
-}
+    .esp-main-header .navbar-brand {
+        color: #fff;
+        font-weight: bold;
+    }
+    .esp-header {
+        background-color: #1d1d1d;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        /*height: 155px;*/
+        color: #fff;
+        padding: 10px 25px 10px 25px;
+    }
+        .esp-header h2 {
+            font-size : 30px;
+            text-align:right;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        
+        .esp-menu-placeholder {
+            display: block;
+            float: left;
+            padding-right: 5px;
+            width: 300px;
+        }
 .esp-place-holder {
     float: left;
     width: 70%;
+    border-right: 1px solid #81bd00;
+    border-left: 1px solid #81bd00;
+    border-bottom: 1px solid #81bd00;
+    padding: 0px 5px 0px 5px;
+    background-color: #fff;
+    height: 100%;
+    min-height: 650px;
 }
 
+
+#sidebar-menu-treeview {
+    border-top: 1px solid #808080;
+    color: #fff!important;
+}
 .school-name {
     font-size: 30px !important;
 }
@@ -78,4 +115,9 @@ select
 .school-log-imge {
     width: 150px;
     height: 110px;
+}
+.school-data {
+    background-image: url(/Content/images/banner-open-data.jpg);
+    background-blend-mode: exclusion;
+    background-position: right;
 }

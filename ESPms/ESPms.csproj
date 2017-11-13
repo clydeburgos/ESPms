@@ -163,6 +163,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Scripts\app\components\school-list.js" />
     <Content Include="Scripts\app\components\school-profile.js" />
     <Content Include="Scripts\app\components\sidebar-menu.js" />
     <Content Include="Scripts\app\helpers.js" />
@@ -235,6 +236,7 @@
     <Content Include="Views\Home\Components\course-profile.cshtml" />
     <Content Include="Views\Home\Components\sidebar-menu.cshtml" />
     <Content Include="Views\Home\Components\header-menu.cshtml" />
+    <Content Include="Views\Home\Components\school-list.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -64,4 +64,3 @@ C:\Files\Projects\PERSONAL PROJECTS\ESPms\ESPms\bin\Microsoft.AI.WindowsServer.x
 C:\Files\Projects\PERSONAL PROJECTS\ESPms\ESPms\bin\Microsoft.AI.Web.xml
 C:\Files\Projects\PERSONAL PROJECTS\ESPms\ESPms\obj\Debug\ESPms.dll
 C:\Files\Projects\PERSONAL PROJECTS\ESPms\ESPms\obj\Debug\ESPms.pdb
-C:\Files\Projects\PERSONAL PROJECTS\ESPms\ESPms\obj\Debug\ESPms.csprojResolveAssemblyReference.cache
